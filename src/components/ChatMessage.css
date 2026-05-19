@@ -13,8 +13,11 @@
   padding: 16px 20px;
   border-radius: 10px;
   margin: 20px 10px;
-  max-width: 300px;
-  line-break: anywhere;
+  max-width: 400px;
+  white-space: pre-line;
+  line-break: auto;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 
 .chat-message-profile{
@@ -22,7 +25,7 @@
 }
 
 .chat-message-time {
-  font-size: 14px;
+  font-size: 12px;
   color: rgb(125, 125, 125);
   margin-top: 5px;
 }

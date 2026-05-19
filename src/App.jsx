@@ -1,7 +1,6 @@
 import { useState, useEffect  } from 'react'
 import { ChatInput } from './components/ChatInput'
 import  ChatMessages  from './components/ChatMessages'
-import { Chatbot } from 'supersimpledev'
 import './App.css'
     
 
@@ -13,14 +12,6 @@ function App() {
   //const chatMessages= array[0];
   //const setChatMessages= array[1];
 
-  useEffect(() => {
-    Chatbot.addResponses(
-      {
-        'good night': 'good night to you too'
-      }
-    );
-  }, []);
-
 
     useEffect(() => {
       localStorage.setItem('messages', JSON.stringify(chatMessages));
@@ -30,7 +21,7 @@ function App() {
       <div className='app-container'>
         {chatMessages.length === 0 && (
           <p className='welcome-message'>
-              Welcome to the chatbot! Send a message using the textbox below.
+              Welcome to chatbot! Send a message using the textbox below.
           </p>
         )}
         <ChatMessages 

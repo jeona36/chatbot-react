@@ -27,6 +27,7 @@
   ![App screenshot](./src/assets/screenshot.png)
 
 ## Live Demo
+  [View Live Website](https://watchlist-chatbot.netlify.app)
 
 
 ## Note

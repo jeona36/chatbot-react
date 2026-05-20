@@ -1,6 +1,6 @@
 # Chatbot 
 
-    A React chatbot that can answer simple questions and manage a personal watchlist for anime, drama, and movies.
+  A React chatbot that can answer simple questions and manage a personal watchlist for anime, drama, and movies.
 
 ## Features
 
@@ -8,8 +8,8 @@
   - Save / delete / edit a watch list of anime, drama, and movies
 
   **Examples:**
-    - `save anime Attack on Titan`
-    - `delete drama Goblin`
+    - `save/add anime Attack on Titan`
+    - `delete/remove drama Goblin`
     - `edit movie Exit 8 to Forgotten`
     - `show anime list`
     - `show all`
@@ -29,5 +29,5 @@
 ## Live Demo
 
 
-Note
+## Note
   This project was built following a tutorial, then later improved with additional features.
